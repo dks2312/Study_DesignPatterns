@@ -1,6 +1,6 @@
 package Singleton;
 
-public class Page_Main {
+public class MyProgram {
 
 	public static void main(String[] args) {
 		new Page_A().setAndPrintSettings();
