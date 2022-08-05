@@ -1,7 +1,8 @@
 package Singleton;
 
 public class Page_Settings {
-	static Page_Settings singletonManager = new Page_Settings();
+	private static Page_Settings singletonManager = new Page_Settings();
+	
 	public static Page_Settings getPage_Settings() {
 		if(singletonManager == null) {
 			singletonManager = new Page_Settings();
